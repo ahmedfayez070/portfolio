@@ -1,0 +1,97 @@
+@import "../../app.scss";
+
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: orange;
+
+    @include xsm {
+      padding-top: 80px;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    .progress-bar {
+      height: 5px;
+      background-color: #fff;
+    }
+  }
+
+  .section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .container {
+      display: flex;
+      gap: 50px;
+      height: 50%;
+
+      @include xsm {
+        padding-top: 80px;
+      }
+
+      .img-container {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include sm {
+          display: none;
+        }
+
+        img {
+          width: 80%;
+          height: 100%;
+
+          @include md {
+            width: 100%;
+          }
+        }
+      }
+
+      .text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        h1 {
+          font-size: 60px;
+
+          @include xsm {
+            font-size: 50px;
+          }
+        }
+
+        p {
+          font-weight: 300;
+          color: #888;
+          text-align: justify;
+        }
+
+        a {
+          width: max-content;
+
+          button {
+            background-color: orange;
+            color: #fff;
+            padding: 10px 30px;
+            border: none;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

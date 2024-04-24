@@ -1,0 +1,135 @@
+@import "../../app.scss";
+
+.contact {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    display: flex;
+    gap: 50px;
+
+    @include sm {
+      flex-direction: column;
+      height: 75%;
+      gap: 20px;
+    }
+
+    .text-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+
+      @include sm {
+        gap: 5px;
+      }
+
+      h1 {
+        font-size: 80px;
+
+        @include md {
+          font-size: 60px;
+        }
+
+        @include sm {
+          font-size: 50px;
+        }
+
+        @include xsm {
+          font-size: 38px;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+
+        @include sm {
+          font-size: 18px;
+        }
+      }
+
+      h3 {
+        font-size: 18px;
+        color: #999;
+
+        @include sm {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .form-container {
+      flex: 1;
+      position: relative;
+
+      .phone-svg {
+        stroke: orange;
+        position: absolute;
+        margin: auto;
+        z-index: -1;
+        overflow: hidden;
+        width: 100%;
+
+        @include sm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .phone {
+          width: 450px;
+          height: 450px;
+
+          @include md {
+            width: 300px;
+            height: 300px;
+          }
+        }
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+        height: 100%;
+
+        @include sm {
+          gap: 10px;
+        }
+
+        input,
+        textarea {
+          background-color: transparent;
+          border: 1px solid #ccc;
+          padding: 10px 15px;
+          border-radius: 5px;
+          color: #ccc;
+        }
+
+        textarea {
+          height: 200px;
+
+          @include sm {
+            height: 150px;
+          }
+
+          @include xsm {
+            height: 130px;
+          }
+        }
+
+        button {
+          background-color: orange;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
