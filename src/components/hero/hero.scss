@@ -42,6 +42,7 @@
       .btns {
         display: flex;
         gap: 20px;
+        z-index: 1000;
 
         @include xsm {
           gap: 10px;
