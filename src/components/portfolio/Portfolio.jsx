@@ -5,24 +5,31 @@ import "./portfolio.scss";
 const items = [
   {
     id: 1,
-    img: "/portfolio1.png",
+    img: "/1.png",
+    title: "Chirper",
+    desc: "Share your thoughts on Chirper with your friends.",
+    link: "https://chirper-client.onrender.com",
+  },
+  {
+    id: 2,
+    img: "/2.PNG",
+    title: "UrbanNest",
+    desc: "Want to find a state? Only in UrbanNest you can find what u want.",
+    link: "https://urbannest-client.onrender.com",
+  },
+  {
+    id: 3,
+    img: "/3.png",
     title: "Liver",
     desc: "Want to be a freelancer? This is your place.",
     link: "https://liver-client.onrender.com",
   },
   {
-    id: 2,
-    img: "/portfolio2.PNG",
+    id: 4,
+    img: "/4.PNG",
     title: "FeedSocial",
     desc: "Share your thoughts on FeedSocial with your friends.",
     link: "https://github.com/ahmedfayez070/feed-social",
-  },
-  {
-    id: 3,
-    img: "/portfolio3.PNG",
-    title: "UrbanNest",
-    desc: "Want to find a state? Only in UrbanNest you can find what u want.",
-    link: "https://urbannest-client.onrender.com",
   },
 ];
 
