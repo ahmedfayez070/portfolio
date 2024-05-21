@@ -26,7 +26,7 @@ const items = [
   },
   {
     id: 4,
-    img: "/4.png",
+    img: "/4.PNG",
     title: "Liver",
     desc: "Want to be a freelancer? This is your place.",
     link: "https://liver-client.onrender.com",
