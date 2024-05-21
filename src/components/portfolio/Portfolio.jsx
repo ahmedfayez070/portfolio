@@ -20,13 +20,20 @@ const items = [
   {
     id: 3,
     img: "/3.png",
+    title: "BlogWise",
+    desc: "Follow us to see the the latest blogs.",
+    link: "https://blogwise-eosin.vercel.app/",
+  },
+  {
+    id: 4,
+    img: "/4.png",
     title: "Liver",
     desc: "Want to be a freelancer? This is your place.",
     link: "https://liver-client.onrender.com",
   },
   {
-    id: 4,
-    img: "/4.PNG",
+    id: 5,
+    img: "/5.PNG",
     title: "FeedSocial",
     desc: "Share your thoughts on FeedSocial with your friends.",
     link: "https://github.com/ahmedfayez070/feed-social",
