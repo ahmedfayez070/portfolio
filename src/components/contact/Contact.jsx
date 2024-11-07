@@ -60,11 +60,11 @@ const Contact = () => {
           <motion.h1 variants={variants}>Let&apos;s work together</motion.h1>
           <motion.div className="info" variants={variants}>
             <h2>Mail</h2>
-            <h3>ahmed070fayez@gmail.com</h3>
+            <h3>ahmedfayez.abdalla@gmail.com</h3>
           </motion.div>
           <motion.div className="info" variants={variants}>
             <h2>Address</h2>
-            <h3>Egypt, Tanta</h3>
+            <h3>Egypt</h3>
           </motion.div>
           <motion.div className="info" variants={variants}>
             <h2>Phone</h2>
