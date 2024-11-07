@@ -12,7 +12,7 @@ const items = [
   },
   {
     id: 2,
-    img: "/2.png",
+    img: "/2.PNG",
     title: "Bike Shop",
     desc: "This project outlines the specifications for building a dashboard using Power BI to help the bike shop show the sales performance through 2021 and 2022.",
     link: "https://ahmed-fayez-abdalla.github.io/bike_shop.githup.io/",
@@ -26,14 +26,14 @@ const items = [
   },
   {
     id: 4,
-    img: "/4.png",
+    img: "/4.PNG",
     title: "Layoff Dataset Cleanup",
     desc: "In recent years, layoffs have become a significant topic of concern in the business world, impacting employees and employers alike. The purpose of this document is to show how to clean and prepare a layoff dataset using SQL, ensuring that the analysis is based on accurate and reliable data.",
     link: "https://ahmed-fayez-abdalla.github.io/layoffs.githup.io/",
   },
   {
     id: 5,
-    img: "/5.png",
+    img: "/5.PNG",
     title: "IMDB Movies",
     desc: "This analysis will explore how movie ratings impact revenue, identify trends in movie production over time, and classify films based on their ratings. Ultimately, this project seeks to provide a comprehensive overview of the dataset, offering a deeper understanding of the cinematic landscape.",
     link: "https://ahmed-fayez-abdalla.github.io/IMDB_movies.githup.io/",
