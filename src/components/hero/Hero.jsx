@@ -84,7 +84,7 @@ const Hero = () => {
           initial="initial"
           animate="animate"
         >
-          Frontend Developer
+          Data Analyst
         </motion.div>
       </div>
     </div>
